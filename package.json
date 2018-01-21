@@ -1,0 +1,40 @@
+{
+  "name": "beepwin",
+  "version": "1.0.0",
+  "description": "Windows Beep Function",
+  "repository": "kingleonide/beepwin",
+  "license": "MIT",
+  "author": {
+    "name": "Kingleonide",
+    "email": "vkadblocker@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/beepwin.js"
+  },
+  "main": "index.js",
+  "keywords": [
+	"win",
+	"win32",
+	"windows",
+	"beep",
+	"beeper",
+	"boop",
+	"peep",
+	"frequency",
+	"duration",
+	"terminal",
+	"term",
+	"cli",
+	"cmd",
+	"console",
+	"ding",
+	"ping",
+	"alert",
+	"native"
+  ],
+  "devDependencies": {}
+}
+
