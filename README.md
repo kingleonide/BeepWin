@@ -3,7 +3,10 @@ BeepWin
 
 The `beepwin` package is a C++ extension that requires a build environment to be installed on your system. You must be able to build node.js itself to be able to compile and install the `beepwin` module.
 
-[![IMAGE ALT TEXT HERE](https://mbch.guide/wp-content/uploads/youtubepng.png)](https://www.youtube.com/watch?v=sC2qlDQf3Tw)
+```
+Watch demo on youtube
+[![Watch demo on youtube](https://mbch.guide/wp-content/uploads/youtubepng.png)](https://www.youtube.com/watch?v=sC2qlDQf3Tw)
+```
 ### Install on Windows
 
 For compiling `beepwin` on windows, the following tools.
