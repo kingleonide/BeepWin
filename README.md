@@ -42,11 +42,11 @@ This should rebuild the driver successfully if you have everything set up correc
 ### Usage BeepWin
 
 ```
-var Beep = require("../build/Release/beepwin");
+var Beep = require("beepwin");
 
-Beep(); // default Beep(3000, 100), see in lib/beepwin.cc
+Beep(); // Default Beep(3000, 100);
 
-Beep(10000, 100); // 10000 = frequency, 100 = duration in ms
+Beep(10000, 100); // 10000 = Frequency, 100 = Duration in Milliseconds
 
 for(i = 0; i < 10; i++){
 	Beep(1000 * i, 100);
