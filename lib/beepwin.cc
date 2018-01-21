@@ -12,9 +12,9 @@ void Beep(const FunctionCallbackInfo<Value>& args) {
 	}
 	else if(args.Length() == 2)
 	{
-		if (!args[0]->IsInt32() || !args[1]->IsInt32()) {
+		if (!args[0]->IsNumber() || !args[1]->IsNumber()) {
 			isolate->ThrowException(Exception::TypeError(
-					String::NewFromUtf8(isolate, "Wrong arguments, except (int, int)")));
+					String::NewFromUtf8(isolate, "Argument is not number")));
 			return;
 		}
 		
