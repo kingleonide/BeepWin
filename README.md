@@ -22,8 +22,16 @@ Next you will have to build the project manually to test it. Use any tool you us
 ```
 git clone https://github.com/kingleonide/beepwin.git
 cd beepwin
+set PYTHON=D:\Programs\Python27\python.exe (setup your python.exe path)
 npm install
 node-gyp rebuild
+```
+
+or
+
+```
+set PYTHON=D:\Programs\Python27\python.exe (setup your python.exe path)
+npm install beepwin
 ```
 
 This should rebuild the driver successfully if you have everything set up correctly.
